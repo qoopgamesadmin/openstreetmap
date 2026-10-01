@@ -52,3 +52,11 @@ Lines are simplified (Ramer–Douglas–Peucker, 0.6 m for buildings, 1–1.5 m 
 When present, after the features: `HGT1`, then `uint16 nx, uint16 nz, float32 step, float32 x0, float32 z0,
 float32 base`, then `nx * nz` × `uint16` — decimetres above `base` metres, row by row from the south-west
 (x fastest). Older readers stop before this section. These heights are not from OpenStreetMap (see LICENSE).
+
+## Street names (`<city>.names.bytes`)
+
+Beside each city file, the named streets of the same box, in the same metres (from the city file's header):
+`QRN1`, int32 count, then per street: uint8 road kind (as in the city file), uint8 byte length + the name in UTF-8
+(Turkish name, else English, else the local one in Latin letters), uint16 point count, then float32 x, float32 z per
+point. Made by `tools/build_names.py` from OpenStreetMap (Overpass, `way["highway"]["name"]`). © OpenStreetMap
+contributors, ODbL 1.0.
