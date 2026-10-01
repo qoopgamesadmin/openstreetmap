@@ -1,0 +1,1 @@
+[out:json][timeout:90];(way["leisure"="park"](-4.0709,39.6671,-4.0511,39.6869);way["landuse"="forest"](-4.0709,39.6671,-4.0511,39.6869);way["natural"="wood"](-4.0709,39.6671,-4.0511,39.6869););out geom qt;

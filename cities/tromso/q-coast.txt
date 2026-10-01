@@ -1,0 +1,1 @@
+[out:json][timeout:90];(way["natural"="coastline"](69.6343,18.9220,69.6641,18.9890););out geom qt;

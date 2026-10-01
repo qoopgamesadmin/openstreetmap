@@ -1,0 +1,1 @@
+[out:json][timeout:120];(relation["building"](31.2307,121.4893,31.2487,121.5103););out geom qt;

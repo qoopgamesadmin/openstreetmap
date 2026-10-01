@@ -1,0 +1,1 @@
+[out:json][timeout:120];(way["natural"="water"](21.4759,39.1763,21.4957,39.1975);relation["natural"="water"](21.4759,39.1763,21.4957,39.1975);way["waterway"="riverbank"](21.4759,39.1763,21.4957,39.1975););out geom qt;

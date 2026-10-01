@@ -1,0 +1,16 @@
+Qoop World — OpenStreetMap derived data
+
+The databases in this repository (cities/*/*.bytes and anything you convert from them) are derived from
+OpenStreetMap and are made available under the Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/  (full text: LICENSE-ODbL-1.0.md)
+
+Any rights in individual contents of the databases are licensed under the Database Contents License:
+https://opendatacommons.org/licenses/dbcl/1-0/
+
+© OpenStreetMap contributors — https://www.openstreetmap.org/copyright
+
+Ground heights (the HGT1 section at the end of some files) come from the Terrain Tiles on the AWS Registry of
+Open Data (Tilezen / Mapzen), with their own attribution:
+https://github.com/tilezen/joerd/blob/master/docs/attribution.md
+
+The scripts in tools/ and cities/*/ are offered under the same terms, so the data can be rebuilt and reused.

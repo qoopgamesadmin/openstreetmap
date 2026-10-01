@@ -1,0 +1,1 @@
+[out:json][timeout:180];(way["highway"](40.3565,49.8222,40.3763,49.8482););out geom qt;

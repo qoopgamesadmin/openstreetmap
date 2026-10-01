@@ -1,0 +1,1 @@
+[out:json][timeout:90];(way["waterway"~"river|stream|canal"](26.6042,37.9079,26.6258,37.9321););out geom qt;
